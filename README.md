@@ -3,19 +3,19 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 
 # 🔗Principais Funcionalidades
 - ✅Extração Automática de Dados:  
-  -  Utiliza UiPath para coletar informações de extratos bancários, comprovantes, faturas e planilhas.
+    -  Utiliza UiPath para coletar informações de extratos bancários, comprovantes, faturas e planilhas.
 
 -  ✅Processamento e Validação dos Dados:
-  -  Emprega Python com bibliotecas como pandas e pytesseract para converter PDFs e imagens em dados estruturados, normalizando informações essenciais como data, descrição, valor e categoria.
+    -  Emprega Python com bibliotecas como pandas e pytesseract para converter PDFs e imagens em dados estruturados, normalizando informações essenciais como data, descrição, valor e categoria.
 
 -  ✅Armazenamento:
-  -  Organiza os dados extraídos em um banco de dados SQLite, facilitando consultas e análises futuras.
+    -  Organiza os dados extraídos em um banco de dados SQLite, facilitando consultas e análises futuras.
 
 -  ✅Dashboard Interativo:
-  -  Integração com Power BI para visualização dos dados através de gráficos e relatórios, permitindo acompanhamento detalhado e análise dos padrões de despesas.
+    -  Integração com Power BI para visualização dos dados através de gráficos e relatórios, permitindo acompanhamento detalhado e análise dos padrões de despesas.
 
 -  ✅Feedback Inteligente com IA:
-  -  Um módulo de inteligência artificial analisa o histórico financeiro para fornecer feedbacks e sugestões personalizadas, ajudando o usuário a otimizar seu orçamento e identificar possíveis desvios nos gastos.
+    -  Um módulo de inteligência artificial analisa o histórico financeiro para fornecer feedbacks e sugestões personalizadas, ajudando o usuário a otimizar seu orçamento e identificar possíveis desvios nos gastos.
     
 ## 🚀Tecnologias Utilizadas
 - ``UiPath``
