@@ -29,7 +29,7 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 | -------- | -------- | -------- |
 |RF01|O sistema deve permitir acessar e coletar automaticamente dados de diversas fontes: extratos bancários (PDF, relatórios, planilhas), comprovantes (e-mails, fotos) e outros.|Alta|
 |RF02|O sistema deve permitir classificar as transações em categorias pré-definidas (alimentação, transporte, lazer, etc.) com possibilidade de correção manual se necessário.|Média|
-|RF03|O sistema deve permitir organizar e armazenar as informações processadas em um formato estruturado (CSV, SQLite, MySQL), facilitando consultas e análises futuras.|Alta|
+|RF03|O sistema deve permitir organizar e armazenar as informações processadas em um formato estruturado (SQLite), facilitando consultas e análises futuras.|Alta|
 |RF04|O sistema deve permitir integrar os dados a uma ferramenta de BI (Power BI, Tableau ou dashboards customizados via Dash/Plotly) para exibir gráficos interativos e filtros.|Alta|
 |RF05|O sistema deve permitir analisar os dados históricos por meio de modelos preditivos e técnicas de machine learning para oferecer sugestões, alertas e projeções personalizadas.|Alta|
 |RF06|O sistema deve permitir automatizar a execução do fluxo (extração, processamento, atualização) em intervalos programados, com registro de logs para monitoramento e depuração.|Alta|
