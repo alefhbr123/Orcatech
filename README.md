@@ -36,7 +36,8 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 |RF07|O sistema deve permitir ao usuário adicionar e/ou remover categorias, bem como ajustar regras de categorização para adequar-se a situações específicas não previstas inicialmente.|Média|
 |RF08|O sistema deve permitir a exportação de relatórios financeiros e previsões geradas pela IA em formato PDF, XLS ou CSV, para facilitar compartilhamentos e análises offline.|Alta|
 |RF09|O sistema deve registrar e armazenar feedbacks explícitos do usuário sobre as recomendações da IA, para que estes sejam considerados em ciclos futuros de aprendizado.|Média|
-|RF10|	O sistema deve permitir a evolução periódica dos modelos de IA, treinando novamente com novos dados e feedback do usuário para melhorar a assertividade das previsões e sugestões.|Alta|
+|RF10|O sistema deve permitir a evolução periódica dos modelos de IA, treinando novamente com novos dados e feedback do usuário para melhorar a assertividade das previsões e sugestões.|Alta|
+|RF11|O sistema deve permitir o cadastro do usuário com o email e senha.|Média|
 
 ## ***Requisitos não-funcionais***
 
@@ -49,3 +50,4 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 |RNF05|O sistema deve garantir alta disponibilidade do sistema, com mecanismos de backup e recuperação de falhas para minimizar impactos operacionais.|Disponibilidade|
 |RNF06|O sistema deve oferecer um mecanismo de autenticação e autorização robusto, impedindo acessos indevidos e preservando diferentes níveis de permissão.|Segurança|
 |RNF07|O sistema deve ter a capacidade de integrar-se facilmente com APIs e outros sistemas externos, garantindo troca de dados eficiente.|Integração|
+|RNF08|O sistema deve ser uma aplicação web, acessível em qualquer navegador (desktop ou celular), com layout que se adapte bem a telas grandes e pequenas.|Aplicação|
