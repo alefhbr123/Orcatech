@@ -1,0 +1,6 @@
+23/04 - Relação de Atores e Relação dos Casos De Uso
+30/04 - Especificação dos Casos De Uso
+02/05 - Caminhos alternativos
+-------------Começo da implementação do sistema
+10/05 - Fazer o Bot e começar a fazer as páginas do sistema
+
