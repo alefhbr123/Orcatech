@@ -78,4 +78,28 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 | CU11 | Analisar faturas recebidas        | A IA analisa as faturas recebidas para gerar insights.                   | IA (Inteligência Artificial)                   |
 | CU12 | Emitir relatório de faturas       | A IA gera um relatório com base nas faturas analisadas.                  | IA (Inteligência Artificial)                   |
 
+## Sprint BackLog
+
+| ID  | Item/História do Usuário  |  Prioridade | Estimativa  | Responsável | Critérios de aceitação |  
+| --- | ------------------------- | ----------- | ----------- | ----------- | ---------------------- |
+| SB1  | Configurar o repositório  |  Alta | 1 SP  | Álefh | Repositório criado com README e branch protection | 
+| SB2  | Criar diagrama de Casos de Uso e Entidade-Relacionamento e incluir no repositório  |  Alta | 2 SP  | Álefh e Fábio | Diagramas revisados e anexados no repositório | 
+| SB3  | Fazer a relação de Atores e Relação de Casos de Uso  |  Alta | 1 SP  | Álefh | Relações revisadas e documentados no README | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
