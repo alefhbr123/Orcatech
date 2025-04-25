@@ -51,3 +51,31 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 |RNF06|O sistema deve oferecer um mecanismo de autenticação e autorização robusto, impedindo acessos indevidos e preservando diferentes níveis de permissão.|Segurança|
 |RNF07|O sistema deve ter a capacidade de integrar-se facilmente com APIs e outros sistemas externos, garantindo troca de dados eficiente.|Integração|
 |RNF08|O sistema deve ser uma aplicação web, acessível em qualquer navegador (desktop ou celular), com layout que se adapte bem a telas grandes e pequenas.|Aplicação|
+
+## ***Relação de Atores***
+
+| ID  | Nome do ator   | Descrição                                                                 |
+| ----|----------------|---------------------------------------------------------------------------|
+| A1  | Usuário        | Responsável por fazer login, fazer cadastro, enviar fatura, categorizar faturas, registrar faturas no Dashboard, pedir relatório e recusar relatório. |
+| A2  | Bot            | Responsável por achar faturas no e-mail do usuário, analisar os dados do Dashboard e dar feedback ao usuário. |
+| A3  | IA (Inteligência Artificial) | Responsável por analisar as faturas recebidas e emitir um relatório das faturas. |
+| A4  | Administrador  | Responsável por gerenciar o sistema, incluindo funções administrativas como gerenciamento de usuários e configuração do sistema. |
+
+## ***Relação de Casos de Uso***
+
+| ID  | Caso de Uso                        | Descrição                                                                | Atores envolvidos                              |
+| --- | ----------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------- |
+| CU1 | Fazer login                        | O usuário faz login no sistema.                                          | Usuário                                        |
+| CU2 | Fazer cadastro                     | O usuário se cadastra no sistema.                                        | Usuário                                        |
+| CU3 | Enviar fatura                      | O usuário envia uma fatura para o sistema.                               | Usuário                                        |
+| CU4 | Categorizar fatura                 | O usuário categoriza a fatura enviada.                                   | Usuário                                        |
+| CU5 | Registrar faturas no Dashboard     | O usuário registra as faturas enviadas no Dashboard.                     | Usuário                                        |
+| CU6 | Pedir relatório                    | O usuário solicita a geração de um relatório de faturas.                 | Usuário                                        |
+| CU7 | Recusar relatório                  | O usuário recusa o relatório solicitado.                                 | Usuário                                        |
+| CU8 | Achar faturas no e-mail do usuário | O bot localiza as faturas no e-mail do usuário.                          | Bot                                            |
+| CU9 | Analisar dados do Dashboard        | O bot analisa os dados disponíveis no Dashboard.                         | Bot                                            |
+| CU10 | Dar feedback ao usuário           | O bot fornece feedback com base nas análises realizadas.                | Bot                                            |
+| CU11 | Analisar faturas recebidas        | A IA analisa as faturas recebidas para gerar insights.                   | IA (Inteligência Artificial)                   |
+| CU12 | Emitir relatório de faturas       | A IA gera um relatório com base nas faturas analisadas.                  | IA (Inteligência Artificial)                   |
+
+
