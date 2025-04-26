@@ -1,6 +1,12 @@
 # <h1 align="center">OrçaTech</h1>
 Orçatech é um sistema de automação financeira que integra RPA, processamento de dados e inteligência artificial para ajudar os usuários a gerenciar suas despesas de forma eficaz. O projeto automatiza a extração de dados de diversas fontes, processa e organiza as informações em um banco de dados, e as apresenta em um dashboard interativo no Power BI.
 
+## 🚀Tecnologias Utilizadas
+- ``UiPath``: Ferramenta de RPA (Robotic Process Automation) utilizada para automatizar tarefas repetitivas, como acessar contas bancárias, baixar extratos, buscar faturas em e-mails e planilhas. No Orcatech, o UiPath é responsável por coletar automaticamente os dados financeiros que serão processados posteriormente.
+- ``Python``: Linguagem de programação escolhida para processar, organizar e analisar os dados extraídos. Utilizando bibliotecas como pytesseract para OCR, pandas para manipulação de dados e scikit-learn para criação de modelos de IA, o Python realiza a extração de informações relevantes (data, valor, descrição) e treina algoritmos de machine learning para fornecer feedbacks inteligentes aos usuários.
+- ``SQLite``: Banco de dados local utilizado para armazenar todas as transações financeiras de forma estruturada, sem a necessidade de servidores externos. No projeto, o SQLite registra informações como data, valor, descrição e categoria das despesas, servindo como a base de dados que alimenta o dashboard.
+- ``Power BI``: Plataforma de Business Intelligence usada para visualizar e analisar os dados financeiros armazenados no SQLite. Através de dashboards interativos e gráficos dinâmicos, o Power BI permite que os usuários acompanhem seus gastos, recebam alertas e insights sobre seus padrões de consumo.
+
 # 🔗Principais Funcionalidades
 - ✅Extração Automática de Dados:  
     -  Utiliza UiPath para coletar informações de extratos bancários, comprovantes, faturas e planilhas.
@@ -16,12 +22,6 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 
 -  ✅Feedback Inteligente com IA:
     -  Um módulo de inteligência artificial analisa o histórico financeiro para fornecer feedbacks e sugestões personalizadas, ajudando o usuário a otimizar seu orçamento e identificar possíveis desvios nos gastos.
-    
-## 🚀Tecnologias Utilizadas
-- ``UiPath``
-- ``Python``
-- ``SQLite``
-- ``Power BI``
 
 ## ***Requisitos funcionais***
 
@@ -82,9 +82,18 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 
 | ID  | Item/História do Usuário  |  Prioridade | Estimativa  | Responsável | Critérios de aceitação |  
 | --- | ------------------------- | ----------- | ----------- | ----------- | ---------------------- |
-| SB1  | Configurar o repositório  |  Alta | 1 SP  | Álefh | Repositório criado com README e branch protection | 
-| SB2  | Criar diagrama de Casos de Uso e Entidade-Relacionamento e incluir no repositório  |  Alta | 2 SP  | Álefh e Fábio | Diagramas revisados e anexados no repositório | 
-| SB3  | Fazer a relação de Atores e Relação de Casos de Uso  |  Alta | 1 SP  | Álefh | Relações revisadas e documentados no README | 
+| SB1  | Configurar o repositório  |  Alta | 1 SP  | Álefh | Repositório criado com README e branch protection. | 
+| SB2  | Criar diagrama de Casos de Uso e Entidade-Relacionamento e incluir no repositório  |  Alta | 2 SP  | Álefh e Fábio | Diagramas revisados e anexados no repositório. | 
+| SB3  | Fazer a relação de Atores e Relação de Casos de Uso  |  Alta | 1 SP  | Álefh | Relações revisadas e documentados no README. | 
+| SB4  | Estruturar projeto Python (virtualenv, requirements.txt, organização de pastas)  |  Alta | 2 SP  | Álefh | Ambiente funcionando, dependências instaladas e estrutura inicial criada. | 
+| SB5  | Criar script de conexão e criação de tabelas no SQLite  |  Média | 3 SP  | Fábio | Banco de dados .db criado localmente com tabelas Transação, Categoria e Usuário. |
+| SB6  | Desenvolver robot RPA (UiPath) para baixar extratos bancários  |  Alta | 5 SP  | Álefh | Robot funcionando: extrato baixado automaticamente em pasta configurada. |
+| SB7  | Implementar OCR com pytesseract para extrair texto de PDFs de extrato  |  Médio | 5 SP  | Fábio | Texto extraído corretamente de amostras de PDF. |
+| SB8  | Criar script de parsing para extrair data, valor e descrição usando regex  |  Alto | 3 SP  | Álefh | Script funcionando com 3 formatos diferentes de extrato. |
+| SB9  | Configurar dashboard inicial no Power BI com conexão ao SQLite  |  Médio | 3 SP  | Fábio | Dashboard mostrando tabela de transações e gráfico de despesas por categoria. |
+| SB10 | Esboçar primeiro modelo de IA usando scikit-learn para previsão de gastos  |  Baixa | 2 SP  | Álefh | Modelo treinado com dados dummy, previsões exibidas no console. |
+| SB11 | Criar testes unitários iniciais para scripts de OCR e parsing (pytest)  |  Média | 3 SP  | Fábio | Testes com 70%+ de cobertura e passando no pipeline de CI/CD. |
+ |
 
 
 
