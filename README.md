@@ -93,7 +93,7 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 | SB9  | Configurar dashboard inicial no Power BI com conexão ao SQLite  |  Médio | 3 SP  | Fábio | Dashboard mostrando tabela de transações e gráfico de despesas por categoria. |
 | SB10 | Esboçar primeiro modelo de IA usando scikit-learn para previsão de gastos  |  Baixa | 2 SP  | Álefh | Modelo treinado com dados dummy, previsões exibidas no console. |
 | SB11 | Criar testes unitários iniciais para scripts de OCR e parsing (pytest)  |  Média | 3 SP  | Fábio | Testes com 70%+ de cobertura e passando no pipeline de CI/CD. |
- |
+
 
 
 
