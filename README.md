@@ -86,13 +86,13 @@ Orçatech é um sistema de automação financeira que integra RPA, processamento
 | SB2  | Criar diagrama de Casos de Uso e Entidade-Relacionamento e incluir no repositório  |  Alta | 2 SP  | Álefh e Fábio | Diagramas revisados e anexados no repositório. | 
 | SB3  | Fazer a relação de Atores e Relação de Casos de Uso  |  Alta | 1 SP  | Álefh | Relações revisadas e documentados no README. | 
 | SB4  | Estruturar projeto Python (virtualenv, requirements.txt, organização de pastas)  |  Alta | 2 SP  | Álefh | Ambiente funcionando, dependências instaladas e estrutura inicial criada. | 
-| SB5  | Criar script de conexão e criação de tabelas no SQLite  |  Média | 3 SP  | Fábio | Banco de dados .db criado localmente com tabelas Transação, Categoria e Usuário. |
+| SB5  | Criar script de conexão e criação de tabelas no SQLite  |  Média | 3 SP  | Álefh | Banco de dados .db criado localmente com tabelas Transação, Categoria e Usuário. |
 | SB6  | Desenvolver robot RPA (UiPath) para baixar extratos bancários  |  Alta | 5 SP  | Álefh | Robot funcionando: extrato baixado automaticamente em pasta configurada. |
 | SB7  | Implementar OCR com pytesseract para extrair texto de PDFs de extrato  |  Médio | 5 SP  | Fábio | Texto extraído corretamente de amostras de PDF. |
-| SB8  | Criar script de parsing para extrair data, valor e descrição usando regex  |  Alto | 3 SP  | Álefh | Script funcionando com 3 formatos diferentes de extrato. |
+| SB8  | Criar script de parsing para extrair data, valor e descrição usando regex  |  Alto | 3 SP  | Fábio | Script funcionando com 3 formatos diferentes de extrato. |
 | SB9  | Configurar dashboard inicial no Power BI com conexão ao SQLite  |  Médio | 3 SP  | Fábio | Dashboard mostrando tabela de transações e gráfico de despesas por categoria. |
 | SB10 | Esboçar primeiro modelo de IA usando scikit-learn para previsão de gastos  |  Baixa | 2 SP  | Álefh | Modelo treinado com dados dummy, previsões exibidas no console. |
-| SB11 | Criar testes unitários iniciais para scripts de OCR e parsing (pytest)  |  Média | 3 SP  | Fábio | Testes com 70%+ de cobertura e passando no pipeline de CI/CD. |
+| SB11 | Criar testes unitários iniciais para scripts de OCR e parsing (pytest)  |  Média | 3 SP  | Helder | Testes com 70%+ de cobertura e passando no pipeline de CI/CD. |
 
 
 
